@@ -6,6 +6,8 @@ description: "First lecture for the Master Applied Artificial Intelligence Exper
 footer:
   left: "Intro CV — Master AAI"
   right: "{n}/{N}"
+custom_css: |
+  :root { --colloquium-text: #1B3A6B; }
 ---
 
 ## Master AAI Expert Workshops — Session 1
