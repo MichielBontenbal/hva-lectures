@@ -2,6 +2,13 @@
 
 DECKS := $(patsubst slides/%/slides.md,%,$(wildcard slides/*/slides.md))
 
+UNAME := $(shell uname)
+ifeq ($(UNAME), Darwin)
+    SOFFICE := /Applications/LibreOffice.app/Contents/MacOS/soffice
+else
+    SOFFICE := libreoffice
+endif
+
 all: build
 
 build: html pdf pptx index
@@ -35,7 +42,7 @@ public/slides/%/slides.pdf: slides/%/slides.md
 pptx: $(DECKS:%=public/slides/%/slides.pptx)
 
 public/slides/%/slides.pptx: public/slides/%/slides.pdf
-	/Applications/LibreOffice.app/Contents/MacOS/soffice --headless --infilter="impress_pdf_import" --convert-to pptx:"Impress MS PowerPoint 2007 XML" $< --outdir public/slides/$*/
+	$(SOFFICE) --headless --infilter="impress_pdf_import" --convert-to pptx:"Impress MS PowerPoint 2007 XML" $< --outdir public/slides/$*/
 
 # ── INDEX ─────────────────────────────────────────────────────────────────────
 
