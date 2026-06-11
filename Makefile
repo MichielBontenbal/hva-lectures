@@ -35,7 +35,7 @@ public/slides/%/slides.pdf: slides/%/slides.md
 pptx: $(DECKS:%=public/slides/%/slides.pptx)
 
 public/slides/%/slides.pptx: public/slides/%/slides.pdf
-	libreoffice --headless --convert-to pptx $< --outdir public/slides/$*/
+	/Applications/LibreOffice.app/Contents/MacOS/soffice --headless --infilter="impress_pdf_import" --convert-to pptx:"Impress MS PowerPoint 2007 XML" $< --outdir public/slides/$*/
 
 # ── INDEX ─────────────────────────────────────────────────────────────────────
 

@@ -1,3 +1,10 @@
+---
+title: "Intro to Computer Vision"
+author: "Michiel Bontenbal & Rick van Kersbergen"
+date: "2026-09-04"
+description: "First lecture for the Master Applied Artificial Intelligence Expert Workshops."
+---
+
 ## Master Applied Artificial Intelligence Expert Workshops -- Session 1 Lecturers Michiel  Bontenbal , MSc Rick van Kersbergen, MSc {#slide-1}
 
 ![](slides/intro_CV/assets/ppt/media/image5.emf "Tijdelijke aanduiding voor afbeelding 3")
