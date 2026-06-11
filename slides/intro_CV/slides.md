@@ -12,14 +12,6 @@ footer:
 
 Michiel Bontenbal, MSc · Rick van Kersbergen, MSc
 
----
-
-## Agenda
-
-*(SmartArt diagram — see original slides)*
-
----
-
 ## Introduction Tech Workshop Curriculum
 
 ---
@@ -28,13 +20,13 @@ Michiel Bontenbal, MSc · Rick van Kersbergen, MSc
 
 | No. | Date | Lecturer | Subjects |
 |-----|------|----------|---------|
-| 1 | Thu Sep | Rick + Michiel | AI assisted coding, Data exploration, Faces |
-| 2 | Thu Sep | Michiel | Object Detection, Video, CNN advanced |
-| 3 | Thu Sep | Rick | Evaluations, Build an app |
-| 4 | Thu Sep | Michiel | Embeddings (SSL, CLIP, Search) & prep tech reviews |
-| 5 | Thu Oct | Rick + Michiel | Tech reviews |
-| 6 | Thu Oct | Rick | ML Ops + topics based on student questions |
-| 7 | Thu Oct | Michiel | Vision Language Models (VLMs) + topics based on student questions |
+| 1   | Thu Sep | Rick + Michiel | AI assisted coding, Data exploration, Faces |
+| 2   | Thu Sep | Michiel | Object Detection, Video, CNN advanced |
+| 3   | Thu Sep | Rick | Evaluations, Build an app |
+| 4   | Thu Sep | Michiel | Embeddings (SSL, CLIP, Search) & prep tech reviews |
+| 5   | Thu Oct | Rick + Michiel | Tech reviews |
+| 6   | Thu Oct | Rick | ML Ops + topics based on student questions |
+| 7   | Thu Oct | Michiel | Vision Language Models (VLMs) + topics based on student questions |
 
 ---
 
@@ -44,15 +36,13 @@ Michiel Bontenbal, MSc · Rick van Kersbergen, MSc
 
 ---
 
-## Techreview
+## Techreview week 5
 
 Assessment on the technical aspect of your project up till that point. Outcomes A2, B1, B2, B3, C2
 
-**You hand in on the DLO:**
+**You hand in on DLO:**
 - Relevant part of your project report (see study guide)
 - Link to your up-to-date Git repo (make it navigable)
-
-See it as a feedback moment on your progress, not as a test.
 
 ---
 
